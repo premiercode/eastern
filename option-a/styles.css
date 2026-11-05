@@ -438,7 +438,7 @@ html.js .primary-nav.is-open .primary-nav__cta-item { margin-top: var(--space-2)
 }
 .hero__inner {
   display: grid;
-  max-width: 2400px;
+  max-width: none;
   margin-inline: auto;
 }
 .hero__content {
@@ -502,7 +502,7 @@ html.js .primary-nav.is-open .primary-nav__cta-item { margin-top: var(--space-2)
 @media (min-width: 960px) {
   .hero__inner {
     --hero-text: 600px;
-    --hero-lead: max(var(--gutter), (min(100vw, 2400px) - var(--container)) / 2);
+    --hero-lead: max(var(--gutter), (100vw - var(--container)) / 2);
     grid-template-columns: calc(var(--hero-lead) + var(--hero-text)) minmax(0, 1fr);
     min-height: min(84svh, 860px);
     min-height: min(84vh, 860px);
@@ -941,3 +941,5 @@ html.js .reveal.is-visible { opacity: 1; transform: none; }
   html { font-size: 112.5%; }
   .hero__inner { --hero-text: 740px; }
 }
+
+.nowrap { white-space: nowrap; }

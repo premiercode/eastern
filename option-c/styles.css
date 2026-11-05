@@ -664,7 +664,7 @@ figcaption {
 .mesquite-photo img {
   width: 100%;
   aspect-ratio: 16 / 9;
-  max-height: 72vh;
+  max-height: min(72vh, 900px);
   min-height: 260px;
   object-fit: cover;
   object-position: 50% 45%;
@@ -788,3 +788,5 @@ html.js .reveal.is-visible { opacity: 1; transform: none; }
   html.js .reveal { opacity: 1; transform: none; transition: none; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+.nowrap { white-space: nowrap; }

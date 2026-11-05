@@ -491,3 +491,5 @@
     *, *::before, *::after { transition-duration: 0.01ms !important; animation: none !important; }
   }
 }
+
+.nowrap { white-space: nowrap; }
