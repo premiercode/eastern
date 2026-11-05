@@ -916,6 +916,7 @@ html.js .primary-nav.is-open .primary-nav__cta-item { margin-top: var(--space-2)
   border-bottom: 1px solid rgb(255 255 255 / 0.12);
 }
 .brand--footer { color: #fff; margin: 0 0 var(--space-4); }
+.brand--footer .brand__sub { color: var(--blue-300); }
 .site-footer__tag { line-height: 1.6; }
 .site-footer__nav ul { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-6); }
 .site-footer__nav a {

@@ -768,22 +768,15 @@ html.js .reveal.is-visible { opacity: 1; transform: none; }
     scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
   }
+  .site-nav ul { padding-block: 8px; }
   .site-nav ul::-webkit-scrollbar { display: none; }
   .site-nav li { flex: none; }
   .site-nav a { white-space: nowrap; }
 }
 @media (min-width: 1040px) and (min-height: 501px) {
   html { scroll-padding-top: 112px; }
-  .site-header { position: sticky; top: -40px; }
-  .preview-bar {
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-block: 0;
-    white-space: nowrap;
-    overflow: hidden;
-  }
+  .site-header { position: sticky; top: 0; }
+  .preview-bar { text-align: center; }
 }
 
 /* Hero: photo top aligned with kicker; facts as their own row */
@@ -885,3 +878,5 @@ html.js .reveal:focus-within { opacity: 1; transform: none; }
   .hero-figure figcaption { padding-right: var(--gutter); }
   .feature-a .feature-media { margin-left: calc(-1 * ((100vw - var(--max)) / 2 + var(--gutter))); }
 }
+
+@media (max-width: 359px) { .wordmark-sub { white-space: normal; } }
