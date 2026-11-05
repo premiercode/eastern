@@ -13,6 +13,15 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
+    // The preview bar lives inside the sticky header; offset the header by the bar's
+    // height so only the nav row stays pinned while scrolling.
+    var bar = document.querySelector(".preview-bar");
+    function setBarHeight() {
+      if (bar) root.style.setProperty("--pv-h", bar.offsetHeight + "px");
+    }
+    setBarHeight();
+    window.addEventListener("resize", setBarHeight);
+
     var nodes = document.querySelectorAll(".reveal");
 
     if (reduce || !("IntersectionObserver" in window)) {

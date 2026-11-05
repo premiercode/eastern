@@ -21,14 +21,13 @@
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
 
-  <div class="preview-bar" role="note">
-    <div class="wrap preview-bar__inner">
-      <span class="preview-bar__tag">Design preview</span>
-      <p>Sample layout for Eastern Mechanical Contractors. Project cards and contact details are samples, not real data.</p>
-    </div>
-  </div>
-
   <header class="site-header">
+    <div class="preview-bar" role="note">
+      <div class="wrap preview-bar__inner">
+        <span class="preview-bar__tag">Design preview</span>
+        <p>Sample layout for Eastern Mechanical Contractors. Project cards and contact details are samples, not real data.</p>
+      </div>
+    </div>
     <div class="wrap site-header__inner">
       <a class="brand" href="#top" aria-label="Eastern Mechanical Contractors, Inc. — back to top">
         <span class="brand__name">Eastern Mechanical</span>
@@ -36,10 +35,10 @@
       </a>
       <nav class="site-nav" aria-label="Page sections">
         <ul>
-          <li><a href="#scope"><span aria-hidden="true">01</span> Scope</a></li>
-          <li><a href="#credentials"><span aria-hidden="true">02</span> Credentials</a></li>
-          <li><a href="#samples"><span aria-hidden="true">03</span> Samples</a></li>
-          <li><a href="#area"><span aria-hidden="true">04</span> Service area</a></li>
+          <li><a href="#scope"><span>01</span> Scope</a></li>
+          <li><a href="#credentials"><span>02</span> Credentials</a></li>
+          <li><a href="#samples"><span>03</span> Samples</a></li>
+          <li><a href="#area"><span>04</span> Service area</a></li>
         </ul>
       </nav>
       <!-- PLACEHOLDER: phone number to be confirmed by client -->
@@ -157,61 +156,47 @@
         </header>
 
         <ol class="modules">
-          <li class="module reveal">
+          <li class="module module--primary reveal">
             <div class="module__media duo duo--steel">
               <img src="../assets/img/commercial-ceiling-piping-lift-01-800.webp"
                    srcset="../assets/img/commercial-ceiling-piping-lift-01-800.webp 800w, ../assets/img/commercial-ceiling-piping-lift-01-1600.webp 1600w, ../assets/img/commercial-ceiling-piping-lift-01-2400.webp 2400w"
-                   sizes="(min-width: 1100px) 340px, (min-width: 700px) 45vw, 92vw" width="2400" height="1600" loading="lazy"
-                   alt="Tradesman on a lift working overhead among red fire-sprinkler piping in a commercial building">
+                   sizes="(min-width: 1100px) 560px, (min-width: 700px) 45vw, 92vw" width="2400" height="1600" loading="lazy"
+                   alt="Tradesman on a lift working overhead among red piping in a commercial building">
             </div>
             <div class="module__body">
               <p class="module__num" aria-hidden="true">01</p>
               <h3 class="module__title">New commercial construction</h3>
               <p>Plumbing for new commercial buildings, coordinated with the drawings, the schedule and the trades working alongside.</p>
-              <p class="module__spec"><span>Type</span> New construction <span>Sector</span> Commercial</p>
+              <dl class="module__spec"><div><dt>Type</dt><dd>New construction</dd></div><div><dt>Sector</dt><dd>Commercial</dd></div></dl>
             </div>
           </li>
-          <li class="module reveal">
+          <li class="module module--primary reveal">
             <div class="module__media duo duo--steel">
               <img src="../assets/img/rough-in-wall-framing-01-800.webp"
                    srcset="../assets/img/rough-in-wall-framing-01-800.webp 800w, ../assets/img/rough-in-wall-framing-01-1600.webp 1600w, ../assets/img/rough-in-wall-framing-01-2400.webp 2400w"
-                   sizes="(min-width: 1100px) 340px, (min-width: 700px) 45vw, 92vw" width="2400" height="3200" loading="lazy"
+                   sizes="(min-width: 1100px) 560px, (min-width: 700px) 45vw, 92vw" width="2400" height="3200" loading="lazy"
                    alt="Plumbing rough-in with copper stub-outs and insulated lines inside a framed wall">
             </div>
             <div class="module__body">
               <p class="module__num" aria-hidden="true">02</p>
               <h3 class="module__title">Schools &amp; public buildings</h3>
               <p>Institutional plumbing for schools and public buildings: facilities that serve the public and have to work from the first day the doors open.</p>
-              <p class="module__spec"><span>Type</span> New construction <span>Sector</span> Institutional</p>
-            </div>
-          </li>
-          <li class="module reveal">
-            <div class="module__media duo duo--steel">
-              <img src="../assets/img/pipe-fitting-hands-01-800.webp"
-                   srcset="../assets/img/pipe-fitting-hands-01-800.webp 800w, ../assets/img/pipe-fitting-hands-01-1600.webp 1600w, ../assets/img/pipe-fitting-hands-01-2400.webp 2400w"
-                   sizes="(min-width: 1100px) 340px, (min-width: 700px) 45vw, 92vw" width="2400" height="1600" loading="lazy"
-                   alt="Plumber's hands tightening a brass fitting on stainless steel water piping">
-            </div>
-            <div class="module__body">
-              <p class="module__num" aria-hidden="true">03</p>
-              <h3 class="module__title">Plumbing specialty contractor</h3>
-              <p>Plumbing is the trade, not a sideline. A specialty contractor that works as one focused part of the larger building team.</p>
-              <p class="module__spec"><span>Role</span> Specialty trade <span>Trade</span> Plumbing</p>
+              <dl class="module__spec"><div><dt>Type</dt><dd>New construction</dd></div><div><dt>Sector</dt><dd>Institutional</dd></div></dl>
             </div>
           </li>
           <!-- PLACEHOLDER: Remodeling service (from brief only; no source). Generic copy, no claims. -->
-          <li class="module reveal">
-            <div class="module__media duo duo--steel">
+          <li class="module module--secondary reveal">
+            <div class="module__media duo duo--muted">
               <img src="../assets/img/bathroom-remodel-vanity-02-800.webp"
                    srcset="../assets/img/bathroom-remodel-vanity-02-800.webp 800w, ../assets/img/bathroom-remodel-vanity-02-1600.webp 1600w, ../assets/img/bathroom-remodel-vanity-02-2400.webp 2400w"
-                   sizes="(min-width: 1100px) 340px, (min-width: 700px) 45vw, 92vw" width="2400" height="1600" loading="lazy"
+                   sizes="(min-width: 1100px) 560px, (min-width: 700px) 45vw, 92vw" width="2400" height="1600" loading="lazy"
                    alt="Modern bathroom remodel with large-format gray tile and an undermount sink">
             </div>
             <div class="module__body">
-              <p class="module__num" aria-hidden="true">04</p>
+              <p class="module__num" aria-hidden="true">03</p>
               <h3 class="module__title">Remodeling</h3>
               <p>Plumbing for remodeling projects, planned around the building that is already there.</p>
-              <p class="module__spec"><span>Type</span> Remodel <span>Trade</span> Plumbing</p>
+              <dl class="module__spec"><div><dt>Type</dt><dd>Remodel</dd></div><div><dt>Trade</dt><dd>Plumbing</dd></div></dl>
             </div>
           </li>
           <!-- /PLACEHOLDER -->
@@ -221,7 +206,7 @@
 
     <!-- ============ 02 CREDENTIALS ============ -->
     <section class="section creds" id="credentials" aria-labelledby="creds-title">
-      <div class="creds__media duo duo--ember" aria-hidden="true">
+      <div class="creds__media duo duo--steel" aria-hidden="true">
         <img src="../assets/img/commercial-pipe-hangers-bw-01-1600.webp"
              srcset="../assets/img/commercial-pipe-hangers-bw-01-800.webp 800w, ../assets/img/commercial-pipe-hangers-bw-01-1600.webp 1600w, ../assets/img/commercial-pipe-hangers-bw-01-2400.webp 2400w"
              sizes="100vw" width="2400" height="1597" loading="lazy" alt="">
@@ -345,12 +330,37 @@
             <!-- /PLACEHOLDER -->
           </div>
         </div>
-        <div class="cta__media duo duo--steel reveal">
-          <img src="../assets/img/fixtures-blueprint-tools-01-800.webp"
-               srcset="../assets/img/fixtures-blueprint-tools-01-800.webp 800w, ../assets/img/fixtures-blueprint-tools-01-1600.webp 1600w, ../assets/img/fixtures-blueprint-tools-01-2400.webp 2400w"
-               sizes="(min-width: 1000px) 560px, 92vw" width="2400" height="1600" loading="lazy"
-               alt="Faucet, braided supply lines and a wrench resting on a home floor plan">
-        </div>
+        <figure class="drawing drawing--detail reveal" aria-labelledby="drawing-b-cap">
+          <div class="drawing__frame">
+            <span class="drawing__corner drawing__corner--tl" aria-hidden="true"></span>
+            <span class="drawing__corner drawing__corner--tr" aria-hidden="true"></span>
+            <span class="drawing__corner drawing__corner--bl" aria-hidden="true"></span>
+            <span class="drawing__corner drawing__corner--br" aria-hidden="true"></span>
+            <svg class="iso" viewBox="50 0 430 410" role="img" aria-label="Illustrative isometric detail of a pipe main on hangers with a valved branch dropping to a fixture.">
+              <path class="iso-grid" d="M250 170 L73.3 272 M279.4 187 L102.8 289 M308.9 204 L132.2 306 M338.3 221 L161.7 323 M367.8 238 L191.1 340 M397.2 255 L220.6 357 M426.7 272 L250 374 M456.1 289 L279.4 391 M250 170 L456.1 289 M220.6 187 L426.7 306 M191.1 204 L397.2 323 M161.7 221 L367.8 340 M132.2 238 L338.3 357 M102.8 255 L308.9 374 M73.3 272 L279.4 391"/>
+              <path class="iso-ghost" d="M250 170 L250 17 L73.3 119" pathLength="1"/>
+              <path class="iso-pipe iso-pipe--a d1" d="M205.8 79.9 L400.2 192.1" pathLength="1"/>
+              <path class="iso-pipe iso-pipe--b d2" d="M308.9 139.4 L217.6 192.1 L217.6 263.5" pathLength="1"/>
+              <path class="iso-equip d3" d="M176.4 307.7 L217.6 331.5 L258.8 307.7" pathLength="1"/>
+              <path class="iso-equip d3" d="M176.4 307.7 L176.4 263.5" pathLength="1"/>
+              <path class="iso-equip d3" d="M217.6 331.5 L217.6 287.3" pathLength="1"/>
+              <path class="iso-equip d3" d="M258.8 307.7 L258.8 263.5" pathLength="1"/>
+              <path class="iso-equip d3" d="M176.4 263.5 L217.6 287.3 L258.8 263.5 L217.6 239.7 L176.4 263.5" pathLength="1"/>
+              <circle class="iso-joint d3" cx="308.9" cy="139.4" r="5"/>
+              <circle class="iso-joint d3" cx="217.6" cy="192.1" r="5"/>
+              <path class="iso-hanger d2" d="M247.1 103.7 L247.1 66.3" pathLength="1"/>
+              <path class="iso-hanger d2" d="M370.7 175.1 L370.7 137.7" pathLength="1"/>
+              <path class="iso-valve d4" d="M268.1 153.8 L255.5 179.4 L247.5 165.6 L276.1 167.6 Z"/>
+              <path class="iso-dim d4" d="M332.4 153 L241.2 205.7" pathLength="1"/>
+              <text class="iso-label d5" x="307.4" y="191.3" transform="rotate(-30 307.4 191.3)">BRANCH</text>
+              <text class="iso-label d5" x="379.6" y="168.3" transform="rotate(30 379.6 168.3)">MAIN</text>
+            </svg>
+          </div>
+          <figcaption id="drawing-b-cap" class="drawing__block">
+            <span><b>Fig. B</b> Branch detail</span>
+            <span>Illustration only</span>
+          </figcaption>
+        </figure>
       </div>
     </section>
   </main>
@@ -376,13 +386,14 @@
         <p>Michael L. Mosby, Responsible Master Plumber, License <span class="nowrap">M-8918</span></p>
         <!-- /PLACEHOLDER -->
         <p>Regulated by the Texas State Board of Plumbing Examiners, <a href="https://tsbpe.texas.gov" rel="noopener">tsbpe.texas.gov</a></p>
-        <p class="site-footer__credits">Photography: Tom van Dyck, Anil Karakaya, Max Vakhtbovych, Brett Sayles, Marianna Zuzanna, Sergei Starostin, Yudi Ding, Anat Morad and AS Photography via Pexels; Valentin Lacoste and Olek Buzunov via Unsplash.</p>
+        <p class="site-footer__credits">Photography: Tom van Dyck, Max Vakhtbovych, Brett Sayles, Marianna Zuzanna, Sergei Starostin, Yudi Ding and Anat Morad via Pexels; Valentin Lacoste and Olek Buzunov via Unsplash.</p>
         <p>&copy; 2026 Eastern Mechanical Contractors, Inc.</p>
       </div>
     </div>
   </footer>
 <!-- REMOVE AT LAUNCH: option switcher -->
 <style class="pv-style">
+html{scroll-padding-bottom:80px}
 .pv-switch .pv-link:focus-visible{outline:3px solid #1a5fd0;outline-offset:2px}
 .pv-switch .pv-link:not([aria-current]):hover{background:#e8e8e8!important}
 @media (max-width:600px){.pv-switch .pv-link{min-height:44px!important}}

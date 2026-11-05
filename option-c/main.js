@@ -1,6 +1,7 @@
 /* Option C — gentle scroll reveals and header state. Content is fully visible without JS. */
 (function () {
   'use strict';
+  document.documentElement.classList.add('js');
 
   var header = document.querySelector('.site-header');
   if (header) {
